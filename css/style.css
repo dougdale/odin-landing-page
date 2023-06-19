@@ -1,13 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header,
+.headertext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header {
+  color: white;
   background-color: #1F2937;
+  padding: 0 100px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.headerinfo {
+    display: flex;
+}
+
+.headerimage,
+.headertext {
+    flex: 1 1 300px;
+}
+
+.headerimage {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*
 .info {
 }
