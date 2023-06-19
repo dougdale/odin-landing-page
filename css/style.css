@@ -124,8 +124,21 @@ a,
   gap: 20px;
 }
 
-.quote {
+.quotebox {
   background-color: #E5E7EB;
+  padding: 75px 150px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.attribution {
+  font-weight: bold;
+  text-align: right;
 }
 
 /*
@@ -134,5 +147,10 @@ a,
 */
 
 .footer {
+  color: white;
   background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
