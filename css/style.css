@@ -15,11 +15,30 @@ ul {
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
-.header,
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+button.headersignup {
+  border: 1px solid #3882F6;
+  color: white;
+  margin-top: 8px;
+}
+
+a,
 .headertext {
     font-size: 18px;
     color: #E5E7EB;
@@ -49,6 +68,8 @@ a {
 
 .headerinfo {
     display: flex;
+    gap: 20px;
+    padding: 75px 0;
 }
 
 .headerimage,
